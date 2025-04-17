@@ -1,9 +1,41 @@
 
 /*** base components ***/
 
-:root {
-  --bg-color
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
 }
+
+:placeholder-shown {
+  color: #fff;
+  padding: 4px ;
+}
+
+input[type="email"] {
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #2C344B;
+  padding: 0 28px 0 28px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.submit-btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  border-radius: 28px;
+  width: 100%;
+  padding: 8px 32px;
+  background-color: #54E6AF;
+  margin-bottom: 146px;
+}
+
 
 /* base typeography */
 
@@ -12,7 +44,26 @@
 }
 
 h1 {
+  margin-top: 56px;
+  margin-bottom: 0;
+  text-align: center;
   font-size: 32px;
+  font-weight: 400;
+  color: #54E6AF;
+  line-height: 38.4px;
+  text-transform: uppercase;
+
+}
+
+span {
+  color: #fff;
+}
+
+p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #C2CBE5;
+  text-align: center;
   font-weight: 400;
 }
 
@@ -24,10 +75,18 @@ h1 {
 }
 
 body {
+    
+    background-color: #121725;
+    background-blend-mode:soft-light;
     background-image: url(/public/assets/mobile/image-host.jpg);
     background-repeat: no-repeat;
-    mix-blend-mode: multiply;
-    
+    opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
 }
 
 
