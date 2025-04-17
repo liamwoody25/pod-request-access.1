@@ -25,7 +25,8 @@ input[type="email"] {
   font-weight: 700;
 }
 
-.submit-btn {
+#submit-btn {
+  cursor: pointer;
   font-size: 14px;
   font-weight: 700;
   line-height: 28px;
@@ -75,11 +76,11 @@ p {
 }
 
 body {
-    
     background-color: #121725;
     background-blend-mode:soft-light;
     background-image: url(/public/assets/mobile/image-host.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.9;
 }
 
