@@ -1,0 +1,30 @@
+/* base typeography */
+
+* {
+  font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+
+/**** base body ****/
+
+.wrapper {
+  margin: 36px;
+}
+
+body {
+    background-image: url(/public/assets/mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+}
+
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
