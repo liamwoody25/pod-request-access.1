@@ -1,3 +1,10 @@
+
+/*** base components ***/
+
+:root {
+  --bg-color
+}
+
 /* base typeography */
 
 * {
@@ -20,6 +27,7 @@ body {
     background-image: url(/public/assets/mobile/image-host.jpg);
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
+    
 }
 
 
